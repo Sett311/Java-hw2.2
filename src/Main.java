@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         int account = 100;
-        int pay = 5000;
+        int pay = 1001;
         int bonus = pay > 1000 ? pay / 100 : 0;
         int total = account + pay + bonus;
         if (bonus == 0) {
